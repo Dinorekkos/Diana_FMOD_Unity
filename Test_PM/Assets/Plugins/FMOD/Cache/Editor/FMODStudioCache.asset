@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-706213571073012053
+--- !u!114 &-6574414749930490355
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,15 +10,67 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
+  m_Name: bank:/Motor.bank
   m_EditorClassIdentifier: 
-  Path: ../Fmod/DINO_fmod/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638192745495611198
+  Path: ../Fmod/DINO_fmod/Build/Desktop/Motor.bank
+  Name: Motor
+  StudioPath: bank:/Motor
+  lastModified: 638192775512980739
   FileSizes:
   - Name: Desktop
-    Value: 1036
+    Value: 42752
+  Exists: 1
+--- !u!114 &-4252904800387812465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MotorCar
+  m_EditorClassIdentifier: 
+  Path: event:/MotorCar
+  Guid:
+    Data1: 1514456470
+    Data2: 1205915880
+    Data3: 1347063982
+    Data4: -893845600
+  Banks:
+  - {fileID: -6574414749930490355}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -2955209737691178542}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3280
+--- !u!114 &-2955209737691178542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MotorCar/Acelerar
+  m_EditorClassIdentifier: 
+  Name: Acelerar
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3404009381
+    data2: 1290453954
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -33,17 +85,19 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 9109287637220108789}
-  - {fileID: -706213571073012053}
-  EditorEvents: []
+  - {fileID: 1639621305117097749}
+  - {fileID: 7278757564802117989}
+  - {fileID: -6574414749930490355}
+  EditorEvents:
+  - {fileID: -4252904800387812465}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -706213571073012053}
+  - {fileID: 7278757564802117989}
   StringsBanks:
-  - {fileID: 9109287637220108789}
-  cacheTime: 638192745495651195
+  - {fileID: 1639621305117097749}
+  cacheTime: 638192775512980739
   cacheVersion: 131603
---- !u!114 &9109287637220108789
+--- !u!114 &1639621305117097749
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -58,8 +112,28 @@ MonoBehaviour:
   Path: ../Fmod/DINO_fmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638192745495651195
+  lastModified: 638192775510295260
   FileSizes:
   - Name: Desktop
-    Value: 762
+    Value: 890
+  Exists: 1
+--- !u!114 &7278757564802117989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../Fmod/DINO_fmod/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638192775510245242
+  FileSizes:
+  - Name: Desktop
+    Value: 1194
   Exists: 1

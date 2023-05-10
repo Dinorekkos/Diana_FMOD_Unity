@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: ../Fmod/DINO_fmod/Build/Desktop/Motor.bank
   Name: Motor
   StudioPath: bank:/Motor
-  lastModified: 638192775512980739
+  lastModified: 638192779794220181
   FileSizes:
   - Name: Desktop
-    Value: 42752
+    Value: 43136
   Exists: 1
 --- !u!114 &-4252904800387812465
 MonoBehaviour:
@@ -42,7 +42,7 @@ MonoBehaviour:
   - {fileID: -6574414749930490355}
   IsStream: 0
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters:
   - {fileID: -2955209737691178542}
   MinDistance: 1
@@ -58,9 +58,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MotorCar/Acelerar
+  m_Name: parameter:/MotorCar/RPM
   m_EditorClassIdentifier: 
-  Name: Acelerar
+  Name: RPM
   StudioPath: 
   Min: 0
   Max: 1
@@ -95,7 +95,7 @@ MonoBehaviour:
   - {fileID: 7278757564802117989}
   StringsBanks:
   - {fileID: 1639621305117097749}
-  cacheTime: 638192775512980739
+  cacheTime: 638192779794220181
   cacheVersion: 131603
 --- !u!114 &1639621305117097749
 MonoBehaviour:
@@ -112,10 +112,10 @@ MonoBehaviour:
   Path: ../Fmod/DINO_fmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638192775510295260
+  lastModified: 638192779793660141
   FileSizes:
   - Name: Desktop
-    Value: 890
+    Value: 886
   Exists: 1
 --- !u!114 &7278757564802117989
 MonoBehaviour:
@@ -132,7 +132,7 @@ MonoBehaviour:
   Path: ../Fmod/DINO_fmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638192775510245242
+  lastModified: 638192779793620138
   FileSizes:
   - Name: Desktop
     Value: 1194

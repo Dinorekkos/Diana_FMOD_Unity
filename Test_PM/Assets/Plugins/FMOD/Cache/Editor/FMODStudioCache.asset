@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: ../Fmod/DINO_fmod/Build/Desktop/Ambience.bank
   Name: Ambience
   StudioPath: bank:/Ambience
-  lastModified: 638192832858737609
+  lastModified: 638193367504684623
   FileSizes:
   - Name: Desktop
     Value: 3391456
@@ -35,7 +35,7 @@ MonoBehaviour:
   Path: ../Fmod/DINO_fmod/Build/Desktop/Motor.bank
   Name: Motor
   StudioPath: bank:/Motor
-  lastModified: 638192779794220181
+  lastModified: 638193367535508281
   FileSizes:
   - Name: Desktop
     Value: 43136
@@ -131,10 +131,10 @@ MonoBehaviour:
   Path: ../Fmod/DINO_fmod/Build/Desktop/CarMusic.bank
   Name: CarMusic
   StudioPath: bank:/CarMusic
-  lastModified: 638192837482441123
+  lastModified: 638193367534770749
   FileSizes:
   - Name: Desktop
-    Value: 2922816
+    Value: 2922784
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -163,7 +163,7 @@ MonoBehaviour:
   - {fileID: 7278757564802117989}
   StringsBanks:
   - {fileID: 1639621305117097749}
-  cacheTime: 638192837482441123
+  cacheTime: 638193373067242964
   cacheVersion: 131603
 --- !u!114 &708541407922454470
 MonoBehaviour:
@@ -209,7 +209,7 @@ MonoBehaviour:
   Path: ../Fmod/DINO_fmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638192837023432439
+  lastModified: 638193373067242964
   FileSizes:
   - Name: Desktop
     Value: 1256
@@ -280,7 +280,7 @@ MonoBehaviour:
   Path: ../Fmod/DINO_fmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638192837023402442
+  lastModified: 638193373067223041
   FileSizes:
   - Name: Desktop
     Value: 1486

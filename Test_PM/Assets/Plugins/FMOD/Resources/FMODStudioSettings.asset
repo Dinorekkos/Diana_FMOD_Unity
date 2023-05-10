@@ -309,6 +309,7 @@ MonoBehaviour:
   - Master
   Banks:
   - Ambience
+  - CarMusic
   - Motor
   BanksToLoad: []
   LiveUpdatePort: 9264

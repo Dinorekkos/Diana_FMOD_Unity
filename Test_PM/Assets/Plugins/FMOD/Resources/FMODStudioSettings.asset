@@ -286,7 +286,7 @@ MonoBehaviour:
   sourceProjectPath: ../Fmod/DINO_fmod/DINO_fmod.fspro
   sourceBankPath: ../Fmod/DINO_fmod/Build
   sourceBankPathUnformatted: 
-  BankRefreshCooldown: 5
+  BankRefreshCooldown: 1
   ShowBankRefreshWindow: 1
   AutomaticEventLoading: 1
   BankLoadType: 0

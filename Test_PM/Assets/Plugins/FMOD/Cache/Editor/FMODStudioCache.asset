@@ -116,6 +116,26 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-1203773478875713760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/CarMusic.bank
+  m_EditorClassIdentifier: 
+  Path: ../Fmod/DINO_fmod/Build/Desktop/CarMusic.bank
+  Name: CarMusic
+  StudioPath: bank:/CarMusic
+  lastModified: 638192837482441123
+  FileSizes:
+  - Name: Desktop
+    Value: 2922816
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,15 +153,17 @@ MonoBehaviour:
   - {fileID: 7278757564802117989}
   - {fileID: -6574414749930490355}
   - {fileID: -7552959903390167680}
+  - {fileID: -1203773478875713760}
   EditorEvents:
   - {fileID: -4252904800387812465}
   - {fileID: 708541407922454470}
+  - {fileID: 4129924302324532715}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7278757564802117989}
   StringsBanks:
   - {fileID: 1639621305117097749}
-  cacheTime: 638192834032802585
+  cacheTime: 638192837482441123
   cacheVersion: 131603
 --- !u!114 &708541407922454470
 MonoBehaviour:
@@ -187,10 +209,10 @@ MonoBehaviour:
   Path: ../Fmod/DINO_fmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638192834032802585
+  lastModified: 638192837023432439
   FileSizes:
   - Name: Desktop
-    Value: 1130
+    Value: 1256
   Exists: 1
 --- !u!114 &1660106517795060652
 MonoBehaviour:
@@ -216,6 +238,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &4129924302324532715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music
+  Guid:
+    Data1: 1773172158
+    Data2: 1169225657
+    Data3: 1440608697
+    Data4: -143650278
+  Banks:
+  - {fileID: -1203773478875713760}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 198000
 --- !u!114 &7278757564802117989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,8 +280,8 @@ MonoBehaviour:
   Path: ../Fmod/DINO_fmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638192834032682580
+  lastModified: 638192837023402442
   FileSizes:
   - Name: Desktop
-    Value: 1340
+    Value: 1486
   Exists: 1

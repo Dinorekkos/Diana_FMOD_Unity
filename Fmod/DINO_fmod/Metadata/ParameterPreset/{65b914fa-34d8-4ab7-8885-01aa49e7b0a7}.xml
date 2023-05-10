@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{65b914fa-34d8-4ab7-8885-01aa49e7b0a7}">
+		<property name="name">
+			<value>VolumeFarAway</value>
+		</property>
+		<relationship name="folder">
+			<destination>{47d9cb95-ff83-4b60-8225-d3d76d45bf99}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{0f8391d4-523a-48a9-8c10-9696e2822c28}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{0f8391d4-523a-48a9-8c10-9696e2822c28}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

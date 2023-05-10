@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: ../Fmod/DINO_fmod/Build/Desktop/Ambience.bank
   Name: Ambience
   StudioPath: bank:/Ambience
-  lastModified: 638192813848789100
+  lastModified: 638192832858737609
   FileSizes:
   - Name: Desktop
-    Value: 3390304
+    Value: 3391456
   Exists: 1
 --- !u!114 &-6574414749930490355
 MonoBehaviour:
@@ -39,6 +39,30 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 43136
+  Exists: 1
+--- !u!114 &-6260910194934826306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/VolumeFarAway
+  m_EditorClassIdentifier: 
+  Name: VolumeFarAway
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2217314148
+    data2: 1359518662
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &-4252904800387812465
 MonoBehaviour:
@@ -117,7 +141,7 @@ MonoBehaviour:
   - {fileID: 7278757564802117989}
   StringsBanks:
   - {fileID: 1639621305117097749}
-  cacheTime: 638192814245693074
+  cacheTime: 638192834032802585
   cacheVersion: 131603
 --- !u!114 &708541407922454470
 MonoBehaviour:
@@ -142,7 +166,9 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
-  Parameters: []
+  Parameters:
+  - {fileID: 1660106517795060652}
+  - {fileID: -6260910194934826306}
   MinDistance: 1
   MaxDistance: 20
   Length: 22000
@@ -161,10 +187,34 @@ MonoBehaviour:
   Path: ../Fmod/DINO_fmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638192814245693074
+  lastModified: 638192834032802585
   FileSizes:
   - Name: Desktop
-    Value: 1024
+    Value: 1130
+  Exists: 1
+--- !u!114 &1660106517795060652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/VolumeAmbient
+  m_EditorClassIdentifier: 
+  Name: VolumeAmbient
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 818073274
+    data2: 379603335
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &7278757564802117989
 MonoBehaviour:
@@ -181,7 +231,7 @@ MonoBehaviour:
   Path: ../Fmod/DINO_fmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638192814245653078
+  lastModified: 638192834032682580
   FileSizes:
   - Name: Desktop
     Value: 1340

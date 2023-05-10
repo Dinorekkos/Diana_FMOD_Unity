@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{cbf07171-f385-4c00-84d7-215a97c9d0e8}">
+		<property name="assetPath">
+			<value>Car/ArranqueMotor.aif</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>6.04</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d0e16a52-9354-4ab2-b81a-176c99fa8723}</destination>
+		</relationship>
+	</object>
+</objects>

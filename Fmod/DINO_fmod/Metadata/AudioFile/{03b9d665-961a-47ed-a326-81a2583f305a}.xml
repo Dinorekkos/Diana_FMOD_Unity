@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{03b9d665-961a-47ed-a326-81a2583f305a}">
+		<property name="assetPath">
+			<value>Music/Latin Industries.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>200.72489795918366</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d0e16a52-9354-4ab2-b81a-176c99fa8723}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -42,10 +42,10 @@ MonoBehaviour:
   Path: ../Fmod/DINO_fmod/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638193564130266610
+  lastModified: 638193644961273363
   FileSizes:
   - Name: Desktop
-    Value: 25568
+    Value: 48736
   Exists: 1
 --- !u!114 &-7552959903390167680
 MonoBehaviour:
@@ -111,6 +111,34 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-4970713857831261447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Parachute
+  m_EditorClassIdentifier: 
+  Path: event:/Parachute
+  Guid:
+    Data1: 267926428
+    Data2: 1125890753
+    Data3: -1585394795
+    Data4: 1276296918
+  Banks:
+  - {fileID: -1203773478875713760}
+  - {fileID: -8341186003523695281}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2040
 --- !u!114 &-4252904800387812465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,10 +206,10 @@ MonoBehaviour:
   Path: ../Fmod/DINO_fmod/Build/Desktop/CarMusic.bank
   Name: CarMusic
   StudioPath: bank:/CarMusic
-  lastModified: 638193564125886276
+  lastModified: 638193644960853317
   FileSizes:
   - Name: Desktop
-    Value: 2922816
+    Value: 2946016
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -210,12 +238,13 @@ MonoBehaviour:
   - {fileID: 4172311533098616178}
   - {fileID: -8437912701970356644}
   - {fileID: 8627696725612496554}
+  - {fileID: -4970713857831261447}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7278757564802117989}
   StringsBanks:
   - {fileID: 1639621305117097749}
-  cacheTime: 638193564130266610
+  cacheTime: 638193644961273363
   cacheVersion: 131603
 --- !u!114 &395357894597817027
 MonoBehaviour:
@@ -288,10 +317,10 @@ MonoBehaviour:
   Path: ../Fmod/DINO_fmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638193564126336298
+  lastModified: 638193641346468299
   FileSizes:
   - Name: Desktop
-    Value: 1446
+    Value: 1486
   Exists: 1
 --- !u!114 &1660106517795060652
 MonoBehaviour:
@@ -386,7 +415,7 @@ MonoBehaviour:
   Path: ../Fmod/DINO_fmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638193564126126280
+  lastModified: 638193641346438293
   FileSizes:
   - Name: Desktop
     Value: 1486

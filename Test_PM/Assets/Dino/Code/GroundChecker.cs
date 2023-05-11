@@ -21,7 +21,7 @@ public class GroundChecker : MonoBehaviour
     {
         if (other.CompareTag("Ground"))
         {
-            Debug.Log("Grounded");
+            // Debug.Log("Grounded");
             OnGrounded?.Invoke();
         }
         

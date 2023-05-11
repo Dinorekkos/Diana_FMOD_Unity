@@ -16,6 +16,9 @@ public class Kar_Flying : MonoBehaviour
     private float _normalMass = 250;
     private bool _isFlying = false;
     private bool _isGrounded = false;
+    
+    private FMOD.Studio.EventInstance fmodEvent;
+
     void Start()
     {
         maxScale = transform.localScale;
@@ -49,6 +52,9 @@ public class Kar_Flying : MonoBehaviour
     private void PlayerStartFlying()
     {
         _isFlying = true;
+        fmodEvent = FMODUnity.RuntimeManager.CreateInstance("event:/Parachute");
+        fmodEvent.start();
+
         parachute.transform.DOScale(maxScale, 1.5f).SetEase(Ease.OutBounce);
         DoJump();
     }
@@ -56,10 +62,9 @@ public class Kar_Flying : MonoBehaviour
     private void OnPlayerStopFlying()
     {
         if (_isFlying)
-        {
-            Debug.Log("OnPlayerStopFlying");
+        { 
              rb.mass = 250f;
-             Debug.Log("rb.mass = " + rb.mass);
+             // Debug.Log("rb.mass = " + rb.mass);
              parachute.transform.DOScale(Vector3.zero, 1.5f).SetEase(Ease.InBounce);
             _isFlying = false;
 
@@ -70,7 +75,6 @@ public class Kar_Flying : MonoBehaviour
     {
         rb.mass = 60f;
         rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-        
     }
     
     

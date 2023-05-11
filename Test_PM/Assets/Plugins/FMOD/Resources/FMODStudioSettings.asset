@@ -311,6 +311,7 @@ MonoBehaviour:
   - Ambience
   - CarMusic
   - Motor
+  - MusicMenu
   - SFX
   BanksToLoad: []
   LiveUpdatePort: 9264

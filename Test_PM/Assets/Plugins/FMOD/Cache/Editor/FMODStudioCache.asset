@@ -1,5 +1,52 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8437912701970356644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CountDownSFX
+  m_EditorClassIdentifier: 
+  Path: event:/CountDownSFX
+  Guid:
+    Data1: 1680033182
+    Data2: 1121153843
+    Data3: 2036203917
+    Data4: -514649132
+  Banks:
+  - {fileID: -8341186003523695281}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 360
+--- !u!114 &-8341186003523695281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: ../Fmod/DINO_fmod/Build/Desktop/SFX.bank
+  Name: SFX
+  StudioPath: bank:/SFX
+  lastModified: 638193564130266610
+  FileSizes:
+  - Name: Desktop
+    Value: 25568
+  Exists: 1
 --- !u!114 &-7552959903390167680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,7 +62,7 @@ MonoBehaviour:
   Path: ../Fmod/DINO_fmod/Build/Desktop/Ambience.bank
   Name: Ambience
   StudioPath: bank:/Ambience
-  lastModified: 638193367504684623
+  lastModified: 638193564124656169
   FileSizes:
   - Name: Desktop
     Value: 3391456
@@ -35,7 +82,7 @@ MonoBehaviour:
   Path: ../Fmod/DINO_fmod/Build/Desktop/Motor.bank
   Name: Motor
   StudioPath: bank:/Motor
-  lastModified: 638193414971565199
+  lastModified: 638193564129366548
   FileSizes:
   - Name: Desktop
     Value: 116672
@@ -92,33 +139,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3280
---- !u!114 &-3443851988234190100
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/GoSFX
-  m_EditorClassIdentifier: 
-  Path: event:/GoSFX
-  Guid:
-    Data1: -437919468
-    Data2: 1191914746
-    Data3: 711980210
-    Data4: 1793529043
-  Banks:
-  - {fileID: 1741251558510966033}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1640
 --- !u!114 &-2955209737691178542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,33 +163,6 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &-1557188845620832681
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/CountDownSFX
-  m_EditorClassIdentifier: 
-  Path: event:/CountDownSFX
-  Guid:
-    Data1: 1680033182
-    Data2: 1121153843
-    Data3: 2036203917
-    Data4: -514649132
-  Banks:
-  - {fileID: 1741251558510966033}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 360
 --- !u!114 &-1203773478875713760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -185,12 +178,46 @@ MonoBehaviour:
   Path: ../Fmod/DINO_fmod/Build/Desktop/CarMusic.bank
   Name: CarMusic
   StudioPath: bank:/CarMusic
-  lastModified: 638193367534770749
+  lastModified: 638193564125886276
   FileSizes:
   - Name: Desktop
-    Value: 2922784
+    Value: 2922816
   Exists: 1
---- !u!114 &-698372931877110284
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 1639621305117097749}
+  - {fileID: 7278757564802117989}
+  - {fileID: -6574414749930490355}
+  - {fileID: -7552959903390167680}
+  - {fileID: -1203773478875713760}
+  - {fileID: -8341186003523695281}
+  EditorEvents:
+  - {fileID: -4252904800387812465}
+  - {fileID: 708541407922454470}
+  - {fileID: 4129924302324532715}
+  - {fileID: 395357894597817027}
+  - {fileID: 4172311533098616178}
+  - {fileID: -8437912701970356644}
+  - {fileID: 8627696725612496554}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 7278757564802117989}
+  StringsBanks:
+  - {fileID: 1639621305117097749}
+  cacheTime: 638193564130266610
+  cacheVersion: 131603
+--- !u!114 &395357894597817027
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -217,67 +244,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 6040
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: 1639621305117097749}
-  - {fileID: 7278757564802117989}
-  - {fileID: -6574414749930490355}
-  - {fileID: -7552959903390167680}
-  - {fileID: -1203773478875713760}
-  - {fileID: 1741251558510966033}
-  EditorEvents:
-  - {fileID: -4252904800387812465}
-  - {fileID: 708541407922454470}
-  - {fileID: 4129924302324532715}
-  - {fileID: 551715321112656854}
-  - {fileID: -1557188845620832681}
-  - {fileID: -3443851988234190100}
-  - {fileID: -698372931877110284}
-  EditorParameters: []
-  MasterBanks:
-  - {fileID: 7278757564802117989}
-  StringsBanks:
-  - {fileID: 1639621305117097749}
-  cacheTime: 638193415074767455
-  cacheVersion: 131603
---- !u!114 &551715321112656854
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Rings
-  m_EditorClassIdentifier: 
-  Path: event:/Rings
-  Guid:
-    Data1: 1315935201
-    Data2: 1117864090
-    Data3: 455057082
-    Data4: -1130704198
-  Banks:
-  - {fileID: 1741251558510966033}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 112
 --- !u!114 &708541407922454470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -322,7 +288,7 @@ MonoBehaviour:
   Path: ../Fmod/DINO_fmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638193415074767455
+  lastModified: 638193564126336298
   FileSizes:
   - Name: Desktop
     Value: 1446
@@ -351,26 +317,6 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &1741251558510966033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/SFX.bank
-  m_EditorClassIdentifier: 
-  Path: ../Fmod/DINO_fmod/Build/Desktop/SFX.bank
-  Name: SFX
-  StudioPath: bank:/SFX
-  lastModified: 638193407614520320
-  FileSizes:
-  - Name: Desktop
-    Value: 25568
-  Exists: 1
 --- !u!114 &4129924302324532715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -398,6 +344,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 198000
+--- !u!114 &4172311533098616178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/GoSFX
+  m_EditorClassIdentifier: 
+  Path: event:/GoSFX
+  Guid:
+    Data1: -437919468
+    Data2: 1191914746
+    Data3: 711980210
+    Data4: 1793529043
+  Banks:
+  - {fileID: -8341186003523695281}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1640
 --- !u!114 &7278757564802117989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -413,8 +386,35 @@ MonoBehaviour:
   Path: ../Fmod/DINO_fmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638193415074757490
+  lastModified: 638193564126126280
   FileSizes:
   - Name: Desktop
     Value: 1486
   Exists: 1
+--- !u!114 &8627696725612496554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Rings
+  m_EditorClassIdentifier: 
+  Path: event:/Rings
+  Guid:
+    Data1: 1315935201
+    Data2: 1117864090
+    Data3: 455057082
+    Data4: -1130704198
+  Banks:
+  - {fileID: -8341186003523695281}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 112

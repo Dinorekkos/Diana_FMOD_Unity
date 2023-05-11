@@ -16,17 +16,18 @@ public class AudioUtility
 
     public static void CreateSFX(AudioClip clip, Vector3 position, AudioGroups audioGroup, float spatialBlend, float rolloffDistanceMin = 1f)
     {
-        GameObject impactSFXInstance = new GameObject("SFX_" + clip.name);
-        impactSFXInstance.transform.position = position;
-        AudioSource source = impactSFXInstance.AddComponent<AudioSource>();
-        source.clip = clip;
-        source.spatialBlend = spatialBlend;
-        source.minDistance = rolloffDistanceMin;
-        source.Play();
-
-        source.outputAudioMixerGroup = GetAudioGroup(audioGroup);
-
-        m_AudioManager.EnsureSFXDestruction(source);
+        
+      //     GameObject impactSFXInstance = new GameObject("SFX_" + clip.name);
+    //     impactSFXInstance.transform.position = position;
+    //     AudioSource source = impactSFXInstance.AddComponent<AudioSource>();
+    //     source.clip = clip;
+    //     source.spatialBlend = spatialBlend;
+    //     source.minDistance = rolloffDistanceMin;
+    //     source.Play();
+    //
+    //     source.outputAudioMixerGroup = GetAudioGroup(audioGroup);
+    //
+    //     m_AudioManager.EnsureSFXDestruction(source);
     }
 
     public static AudioMixerGroup GetAudioGroup(AudioGroups group)

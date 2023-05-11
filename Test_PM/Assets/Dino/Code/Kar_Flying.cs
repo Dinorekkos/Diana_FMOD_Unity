@@ -63,9 +63,10 @@ public class Kar_Flying : MonoBehaviour
     {
         if (_isFlying)
         { 
-             rb.mass = 250f;
-             // Debug.Log("rb.mass = " + rb.mass);
-             parachute.transform.DOScale(Vector3.zero, 1.5f).SetEase(Ease.InBounce);
+            rb.mass = 250f;
+            Vector3 vel = rb.velocity;
+            rb.velocity = vel / 4;
+            parachute.transform.DOScale(Vector3.zero, 1.5f).SetEase(Ease.InBounce);
             _isFlying = false;
 
         }
